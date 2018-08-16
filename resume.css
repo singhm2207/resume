@@ -20,15 +20,20 @@
 }
 
 @media print {
-    @page {
-        margin: 0;
-    }
     body {
-        -webkit-print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;   
     }
     .body-center {
         width: 100%;
     }
+}
+
+@page :first{
+    margin: 0;
+}
+
+@page {
+    margin: 2cm 0 0 0;
 }
 
 .icon-padding {
