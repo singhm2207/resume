@@ -20,8 +20,12 @@
 }
 
 @media print {
+
+    @page :first {
+        margin: 0 0 3cm 0;
+    }
     @page {
-        margin: 0;
+        margin: 3cm 0 3cm 0;
     }
     body {
         -webkit-print-color-adjust: exact;
@@ -47,7 +51,7 @@
 }
 .header {
     color: white;
-    background-color: #808080;
+    background-color: #3B5999;
     padding: 20px 20px;
 }
 
@@ -59,14 +63,14 @@
     border-radius: 7px;
     width: fit-content;
     padding: 5px 10px;
-    background-color: #808080;
+    background-color: #3B5999;
     color: white;
     float: left;
     margin: 5px;
 }
 
 .display-inline {
-    display: -webkit-box;
+    display: -webkit-inline-box;
 }
 
 .width-max {
