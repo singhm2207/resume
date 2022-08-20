@@ -30,6 +30,18 @@
     -webkit-print-color-adjust: exact;    
 
   }
+  .header {
+    padding: 0px 20px 0px 20px !important;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  @page:first {
+    margin: 1cm 1cm 2cm 1cm;
+  }
+  @page {
+    margin: 2cm 1cm 2cm 1cm;
+  }
 }
 
 .body-center {
@@ -66,14 +78,10 @@ body {
   text-decoration: underline;
 }
 .header {
-  padding: 20px 20px;
+  padding: 20px 20px 0px 20px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  background: #525252;
-    background: -webkit-linear-gradient(to right, #3d72b4, #525252);
-    background: linear-gradient(to right, #3d72b4, #525252);
-    color: white;
 }
 
 .default-padding {
