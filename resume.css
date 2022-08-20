@@ -22,13 +22,11 @@
   body {
     background: none;
     color: #212529;
-      -webkit-print-color-adjust: exact;    
-
+    -webkit-print-color-adjust: exact;
   }
   .body-center {
-    color: #212529!important;
-    -webkit-print-color-adjust: exact;    
-
+    color: #212529 !important;
+    -webkit-print-color-adjust: exact;
   }
   .header {
     padding: 0px 20px 0px 20px !important;
@@ -36,9 +34,12 @@
     justify-content: space-between;
     flex-wrap: wrap;
   }
-  @page:first {
-    margin: 1cm 1cm 2cm 1cm;
+  .header a {
+    color: black !important;
   }
+  @page: first{
+    margin: 1cm 1cm 2cm 1cm;
+  };
   @page {
     margin: 2cm 1cm 2cm 1cm;
   }
@@ -82,6 +83,10 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.header a {
+  color: white;
 }
 
 .default-padding {
