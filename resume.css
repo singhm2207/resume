@@ -37,9 +37,12 @@
   .header a {
     color: black !important;
   }
-  @page: first{
-    margin: 1cm 1cm 2cm 1cm;
-  };
+  .print {
+    display: none!important;
+  }
+  @page:first {
+    margin: 6mm 1cm 2cm 1cm;
+  }
   @page {
     margin: 2cm 1cm 2cm 1cm;
   }
@@ -93,7 +96,7 @@ body {
   padding: 20px 20px 0;
 }
 .contact-info i {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 .div-box {
   border-radius: 7px;
