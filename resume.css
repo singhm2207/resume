@@ -40,12 +40,23 @@
   .print {
     display: none!important;
   }
+  .qr-code {
+    display: block !important;
+  }
+  .qr-code img {
+    height: 100px;
+    width: 100px;
+  }
   @page:first {
     margin: 6mm 1cm 2cm 1cm;
   }
   @page {
     margin: 2cm 1cm 2cm 1cm;
   }
+}
+
+.qr-code {
+  display: none;
 }
 
 .body-center {
