@@ -88,7 +88,7 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 30px;
-  color: #4a4a4a;
+  color: #FFFFFF;
   height: 30px;
   font-size: 15px;
   letter-spacing: normal;
@@ -96,6 +96,7 @@ body {
   background: white;
   padding: 16px 10px 12px 10px;
   margin-bottom: 5px;
+  background: #4a4a4a;
 }
 
 .display-inline {
