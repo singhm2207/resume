@@ -34,23 +34,24 @@
     justify-content: space-between;
     flex-wrap: wrap;
   }
-  
+
   .print {
-    display: none!important;
+    display: none !important;
   }
   @page {
-    margin: 4mm;
+    margin: 15mm 4mm 20mm 4mm;
   }
 }
 
 .body-center {
   font-weight: 400;
   color: #4a4a4a;
+  display: flex;
 }
 
 body {
   height: 100%;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .icon-padding {
@@ -64,6 +65,7 @@ body {
 .company {
   font-weight: 600;
 }
+
 .header {
   padding: 20px 20px 0px 20px;
   display: flex;
@@ -72,23 +74,21 @@ body {
   gap: 10px;
 }
 
-.header a {
+a {
   color: #4a4a4a;
 }
 
 .default-padding {
-  padding: 5px 20px 0 20px;
+  margin: 5px 20px 0 20px;
 }
-.contact-info i {
-  margin-right: 10px;
-}
+
 .div-box {
   display: flex;
   width: fit-content;
   justify-content: center;
   align-items: center;
   border-radius: 30px;
-  color: #FFFFFF;
+  color: #ffffff;
   height: 30px;
   font-size: 15px;
   letter-spacing: normal;
@@ -111,18 +111,31 @@ body {
   align-content: center;
 }
 
-.width-max {
-  max-width: 100%;
-}
-
 * {
   margin: 0;
   padding: 0;
 }
 
-.info {
-  flex: 3;
+.company-role {
+  display: flex;
+  justify-content: space-between;
 }
-.contact-info {
-  flex: 1;
+
+a i {
+  margin-right: 5px;
+}
+
+.skills-contact-section {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 24%;
+  margin-top: 10px;
+}
+
+.experience-reward-section {
+  display: flex;
+  flex-direction: column;
+  width: 76%;
+  gap: 15px;
 }
